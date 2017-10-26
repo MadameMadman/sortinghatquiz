@@ -47,12 +47,20 @@ $(document).ready(function(){
 
     if (gryff >= huff && gryff >= rav && gryff >= slyth) {
       $("#output").text("GRYFFINDOR!");
+      $("#results").addClass("gryffindor");
+      $(".gryffindor").show();
     } else if (huff >= gryff && huff >= rav && huff >= slyth) {
       $("#output").text("HUFFLEPUFF!");
+      $("#results").addClass("hufflepuff");
+      $(".hufflepuff").show();
     } else if (rav >= huff && rav >= gryff && rav >= slyth) {
       $("#output").text("RAVENCLAW!");
+      $("#results").addClass("ravenclaw");
+      $(".ravenclaw").show();
     } else {
       $("#output").text("SLYTHERIN!");
+      $("#results").addClass("slytherin");
+      $(".slytherin").show();
     }
     $("#results").show();
   });

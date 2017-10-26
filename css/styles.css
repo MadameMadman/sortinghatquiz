@@ -19,3 +19,27 @@ body {
 #results {
   display:none;
 }
+
+.hufflepuff {
+  background-color: black;
+  color: yellow;
+}
+
+.imgn {
+  display:none;
+}
+
+.slytherin {
+  background-color: #005e19;
+  color: #b4baba;
+}
+
+.gryffindor {
+  background-color: #680000;
+  color: #d6a700;
+}
+
+.ravenclaw {
+  background-color: #1c54af;
+  color: #ffde4c;
+}
