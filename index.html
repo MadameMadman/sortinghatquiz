@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Sorting Hat</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="quizbox">
+        <h1>Come take a seat under the sorting hat!</h1>
+        <form id="quiz">
+          <div class="q1">
+            <p>Question 1: How do you feel about your superiors?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="gryff" checked>
+                I have no superiors, I am the authority!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="huff">
+                Listen to your superiors, as long as they don't ask you to do something wrong.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="rav">
+                People in high places can make suitable mentors, but you must always question authority.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="slyth">
+                I spit in the face of authority, unless they have something to offer me.
+              </label>
+            </div>
+          </div>
+          <div class="q2">
+            <p>Question 2: How do you treat your enemies</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="huff" checked>
+                I have no enemies.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="gryff">
+                I will try to understand them, but if we cannot reach a point of agreement, I shall fight them valiantly
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="slyth">
+                Poison them in their sleep, and murder their family.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="rav">
+                Outwit them in a game of wizard's chess.
+              </label>
+            </div>
+          </div>
+          <div class="q3">
+            <p>Question 3: Describe your personal aesthetic</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="rav" checked>
+                Organized and efficient. A minimalist study space that encourages deep thought.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="huff">
+                Sunshine and rainbows. Lisa Frank, smiley faces and yin-yangs.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="gryff">
+                Proud and put-together. I walk with my head high, my aesthetic isn't as important as keeping my sense of confidence and high esteem.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="slyth">
+                Darkness and occult symbology. Alastair Crowley, dripping candles, and bummer music.
+              </label>
+            </div>
+          </div>
+          <div class="q4">
+            <p>Question 4: What do you dream of?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="gryff" checked>
+                Overcoming evil through a unwavering sense of what is right. Glory is worthless unless it is deserved.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="huff">
+                Equality amongst all wizards, and muggles.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="rav">
+                Ultimate truth surfacing in a beam of glorious light. The banishment of deception and fraudulent behavior.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="slyth">
+                Power and prestige that this world has never seen! All the money in gringotts, and a Hogwarts house named after me!
+              </label>
+            </div>
+          </div>
+          <div class="q5">
+            <p>Question 5: What is a red flag for you when observing the behaviors of others?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="huff" checked>
+                An inability to empathize, and a lack of work-ethic.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="gryff">
+                No self-respect, cowardice.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="slyth">
+                Someone who reminds me of myself or people who are rigid in their dealings with others.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="rav">
+                Lack of willingness to learn from past mistakes.
+              </label>
+            </div>
+          </div>
+          <div class="q6">
+            <p>Question 6: What does your patronus take the form of?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q6" value="rav" checked>
+                An owl, a raven, or a cat
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q6" value="huff">
+                A squirell, a badger, or a dog
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q6" value="gryff">
+                A bear, a lion, or a bald eagle
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q6" value="slyth">
+                A snake, a raccoon, or a komodo dragon
+              </label>
+            </div>
+          </div>
+          <div class="q7">
+            <p>Question 7: Why is the forbidden forest forbidden?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q7" value="gryff" checked>
+                I have no idea, it seems like you can go in whenever you want.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q7" value="huff">
+                Because Dumbledore says so.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q7" value="rav">
+                The sheer number of dangerous creatures in there is enough to avoid the place entirely.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q7" value="slyth">
+                Don't ask too many questions. I've never been there... obviously.
+              </label>
+            </div>
+          </div>
+          <div class="q8">
+            <p>Question 8: What is your favorite course here at Hogwarts</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q8" value="huff" checked>
+                Herbology. Miss Sprout kicks ass.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q8" value="gryff">
+                Defense Against the Dark Arts. We've never had the same proffesor, but there are some valuable lessons to be learned.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q8" value="slyth">
+                Potions. You get to learn how to poison people.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q8" value="rav">
+                History of Magic. Those who don't know history are doomed to repeat it.
+              </label>
+            </div>
+          </div>
+          <div class="q9">
+            <p>Question 9: What are your thoughts towards the Muggle World</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q9" value="rav" checked>
+                What an interesting form of living! Definitely a lifestyle worth studying, and evaluating.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q9" value="huff">
+                They're some of my most solid friends! Muggles are hard-workers, and their solutions to problems without the use of magic are admirable.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q9" value="gryff">
+                We must protect muggles from the evils of death eaters seeping into the foundations of their existence.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q9" value="slyth">
+                They aren't worth the time. There is the wizarding world, and the muggle world. Seperate is better.
+              </label>
+            </div>
+          </div>
+          <div class="q10">
+            <p>Question 10: What house do you think you should be sorted into?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q10" value="gryff" checked>
+                Gryffindor
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q10" value="huff">
+                Hufflepuff
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q10" value="rav">
+                Ravenclaw
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q10" value="slyth">
+                Slytherin
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success">THAT IS ALL I NEED TO KNOW</button>
+        </form>
+        <div id="results">
+          <h1>AHA YOU'VE BEEN SORTED INTO THE HOUSE OF</h1>
+        </div>
+        <div>
+          <h1 id="output"></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

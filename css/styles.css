@@ -1,0 +1,21 @@
+body {
+  background-image: url('greathall.jpg');
+  background-repeat:no-repeat;
+  font-family: 'Yrsa', serif;
+}
+
+.quizbox {
+  background-color: white;
+
+  padding: 2em;
+  margin: 2em;
+}
+
+.quizbox p {
+  opacity: 1.0;
+  font-size: 1.5em;
+}
+
+#results {
+  display:none;
+}
